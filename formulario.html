@@ -12,7 +12,7 @@
   <h1>Bienvenidos a mi fiesta</h1>
   <h2>Por favor, confirmar asistencia:</h2>
 
-  <form class="formulario">
+  <form id="form" class="formulario">  <!-- Se agrega el id de form -->
     Nombre <input type="text" name="name" id="name">
     <br />
     Edad <input type="number" name="age" id="age">
@@ -29,12 +29,12 @@
     <input type="submit">
   </form>
 
-  <div>
+  <div id="lista-de-invitados"> <!-- Se agrega el id a lista-invitados -->
     <h2>Lista de invitados</h2>
 
   </div>
 
-  <script src="../formulario.js"></script>
+  <script src="./formulario.js"></script>  <!-- La ruta relativa cuenta dos carpetas-->
 </body>
 
 </html>
